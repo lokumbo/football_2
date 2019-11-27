@@ -1,0 +1,188 @@
+
+body {
+   overflow-x: hidden;
+}
+body a:hover {
+   text-decoration: none;
+}
+.whole_nav {
+   padding-left: 0;
+   padding-right: 0;
+}
+.fas {
+   color: black;
+}
+table tr.on_hover:hover {
+   background-color: aqua !important;
+}
+table td.on_hover:hover {
+   background-color: aqua !important;
+}
+th.lp {
+   width: 40px;
+}
+th.ed_us {
+   width: 100px;
+}
+.dodany {
+   color: darkblue;
+}
+.napis {
+   color: red;
+}
+.input-group-text {
+   width: 140px;
+}
+.btn-form {
+   width: 85px;
+}
+.ukryj {
+   display: none;
+}
+.hide {
+   visibility: hidden;
+}
+/* dla index.php z katalogu głównego football */
+.buttons_main button {
+   width: 250px;
+}
+/* dla index.php z katalogu admin*/
+#teams {
+   display: none;
+}
+table .input_date {
+   max-width: 200px;
+   background-color: tomato;
+}
+table .input_punkty, table .input_bramki {
+   width: 60px;
+   background-color: tomato;
+}
+/* dla wyniki_2.php */
+.sklady {
+   width: 300px;
+}
+/* dla wyniki_3.php */
+.buttons_3 a {
+   text-decoration: none;
+}
+/* tabela */
+.zrp {
+   min-width: 50px;
+}
+.pbm {
+   min-width: 70px;
+}
+.stat_dod {
+   min-width: 80px;
+}
+.del {
+   color: red;
+}
+.del:hover {
+   color: red;
+}
+/* tabela formy */
+.tabela_forma {
+   border: 1px solid #ada1a1;
+   font-size: 12px;
+   text-align: center;
+}
+.tabela_forma th {
+   border: 1px solid #ada1a1;
+}
+.tabela_forma td {
+   border: 1px solid #ada1a1;
+}
+.tabela_forma tr.pierwszy {
+   background-color: #343a40;
+   color: #fff;
+}
+.tabela_forma td.lp {
+   background-color: rgba(0, 0, 0, 0.05);
+   text-align: left;
+   padding-left: 3px;
+}
+.tabela_forma td.zawodnik {
+   background-color: rgba(0, 0, 0, 0.05);
+   font-size: 12px;
+   font-weight: bold;
+   text-align: left;
+   padding-left: 3px;
+   padding-right: 5px;
+}
+.tabela_forma td.punkty {
+   background-color: rgba(0, 0, 0, 0.05);
+   padding-left: 3px;
+   padding-right: 8px;
+   text-align: left;
+}
+.tabela_forma td.bramki {
+   padding-left: 3px;
+   padding-right: 8px;
+   text-align: left;
+}
+.tabela_forma th.daty {
+   width: 30px;
+   font-size: 10px;
+}
+.tabela_forma td.daty_2 {
+   width: 30px;
+   font-size: 11px;
+}
+.tabela_forma caption {
+   font-size: 12px;
+}
+.tabela_forma .legenda li p {
+   /* width: 30px; */
+   height: 20px;
+   margin-bottom: 5px;
+}
+.tabela_forma .legenda li p span {
+   display: inline-block;
+   width: 30px;
+   height: 20px;
+}
+.tabela_forma .legenda li span.win {
+   background-color: #6afc6a;
+}
+.tabela_forma .legenda li span.draw {
+   background-color: #f9f96b;
+}
+.tabela_forma .legenda li span.lost {
+   background-color: #fc3f3f;
+}
+.tabela_forma .legenda li span.absent {
+   background-color: #000;
+}
+
+/* tabela wszechczasow (wc) */
+table#wyniki_4 caption span {
+   position: relative;
+   top: 3px;
+}
+.legenda_stars {
+   position: relative;
+   top: 3px;
+}
+.tab_wc_leg p {
+   font-size: 12px;
+}
+.tab_wc_leg ul {
+   font-size: 12px;
+}
+table#total .zrp {
+   min-width: 50px;
+}
+table#total .pbm {
+   min-width: 50px;
+}
+table#total .stat_dod {
+   min-width: 50px;
+}
+/* media queries */
+@media (max-width: 575px) {
+   .buttons {
+      padding-left: 20px;
+   }
+}
